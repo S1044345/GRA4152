@@ -28,6 +28,6 @@ class Customer:
         return self._discountearned
     
     #method that gets the total purchases
-    def totalPurchases (self):
+    def getTotalpurchases (self):
         return self._totalpurchases
 
