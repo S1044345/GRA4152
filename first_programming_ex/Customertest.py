@@ -49,3 +49,6 @@ def Customerdemo():
         customer1.makePurchase(80)
         print(customer1.discountReached())
         print("Expected: 20")
+
+if __name__ == '__main__':
+    Customerdemo()
