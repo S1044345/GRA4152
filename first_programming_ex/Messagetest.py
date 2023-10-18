@@ -42,10 +42,14 @@ def Messagedemo():
         message1.append("Hello there!")
         message1.append("How are you doing?")
         message1.append("I hope you are doing well!")
-        print(Message._no_messages())
+        print(message1.toString())
+
+        print(f"Total messages sent: {Message._no_messages}")
         print("Expected: 3")
-        print(Message._log())
-        print("Expected: {Justine: {Jana: Hello there\n How are you doing\n I hope you are doing well\n}")
+
+        print(f"Current log: {Message._log}")
+        print('Expected','(Justine: (Jana: Hello there How are you doing? I hope you are doing well!))')
+
 
 if __name__ == '__main__':
     Messagedemo()
