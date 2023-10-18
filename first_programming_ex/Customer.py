@@ -13,7 +13,6 @@ class Customer:
         self._discountearned = 0
 
         Customer._customerID = Customer._customerID + 1
-        self._accountnumber = Customer._customerID
         
 
     #method that increases the total purchases amount
