@@ -30,5 +30,3 @@ class Message:
             Message._log[self.sender] = {}
 
         Message._log[self.sender][self.recipient] = self.body
-        
-        return Message._no_messages,Message._log
