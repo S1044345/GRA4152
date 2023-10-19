@@ -14,18 +14,18 @@ class Country:
 
     #Constructs a country class with three parameters.
     def __init__(self, country, population, area):
-        self.country = country
-        self.population = population
-        self.area = area
-        self.density = self.population / self.area
+        self._country = country
+        self._population = population
+        self._area = area
+        self._density = self._population / self._area
 
-        Country._arealist.append(self.area)
-        Country._countrylist.append(self.country)
-        Country._poplist.append(self.population)
-        Country._denselist.append(self.density)
-        Country._countrydictarea[self.country] = self.area
-        Country._countrydictpop[self.country] = self.population
-        Country._countrydictdense[self.country] = self.density
+        Country._arealist.append(self._area)
+        Country._countrylist.append(self._country)
+        Country._poplist.append(self._population)
+        Country._denselist.append(self._density)
+        Country._countrydictarea[self._country] = self._area
+        Country._countrydictpop[self._country] = self._population
+        Country._countrydictdense[self._country] = self._density
 
     #a class method that will find the country with the largest area in a list
     @classmethod
