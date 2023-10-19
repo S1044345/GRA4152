@@ -60,20 +60,3 @@ class Country:
     def largestDen_dict (cls):
         return max(cls._countrydictdense, key = lambda x: cls._countrydictdense[x])
     
-
-canada = Country("Canada",1200000,1500)
-philippines = Country("Philippines",1000000,1200)
-us = Country("USA",20000000,1000)
-
-
-largest_area_country_list = Country.largestArea_list()
-largest_area_country_dict = Country.largestArea_dict()
-print(largest_area_country_list,largest_area_country_dict)
-
-largest_pop_country_list = Country.largestPop_list()
-largest_pop_country_dict = Country.largestPop_dict()
-print(largest_pop_country_list,largest_pop_country_dict)
-
-largest_dense_country_list = Country.largestDen_list()
-largest_dense_country_dict = Country.largestDen_dict()
-print(largest_dense_country_list,largest_dense_country_dict)
