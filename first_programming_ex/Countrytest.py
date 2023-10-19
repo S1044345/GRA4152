@@ -57,17 +57,17 @@ def Countrydemo():
         largest_area_country_list = Country.largestArea_list()
         largest_area_country_dict = Country.largestArea_dict()
         print(largest_area_country_list,largest_area_country_dict)
-        print("Expected: us")
+        print("Expected: Canada")
 
         largest_pop_country_list = Country.largestPop_list()
         largest_pop_country_dict = Country.largestPop_dict()
         print(largest_pop_country_list,largest_pop_country_dict)
-        print("Expected: us")
+        print("Expected: USA")
 
         largest_dense_country_list = Country.largestDen_list()
         largest_dense_country_dict = Country.largestDen_dict()
         print(largest_dense_country_list,largest_dense_country_dict)
-        print("Expected: us")
+        print("Expected: USA")
 
 if __name__ == '__main__':
     Countrydemo()
